@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  accreditation-service-web:
+    image: accreditation-service:latest
+    ports:
+      - "8090:8090"
+    restart: always
